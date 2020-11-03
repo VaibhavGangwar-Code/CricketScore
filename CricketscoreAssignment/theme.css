@@ -1,0 +1,400 @@
+body 
+
+{
+  background-color: #E6E6E6;
+  font-family: "Lato", Verdana, Helvetica, sans-serif;
+  font-size: 14px;
+  color: #4d4d4d; }
+/* Navbar container */
+.navbar {
+  overflow: hidden;
+  background-color: #3F96F7;
+  font-family: "Lato", Verdana, Helvetica, sans-serif;
+  margin:15px
+}
+
+/* Links inside the navbar */
+.navbar a {
+  float: left;
+  font-size: 22px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* The dropdown container */
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+/* Dropdown button */
+.dropdown .dropbtn {
+  font-size: 22px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 20px;
+  background-color: inherit;
+  font-family: inherit; /* Important for vertical align on mobile phones */
+  margin: 0; /* Important for vertical align on mobile phones */
+}
+
+/* Add a red background color to navbar links on hover */
+.navbar a:hover {
+  background-color: #f9f9f9;
+}
+
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 200px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  float: none;
+font-size: 18px;
+  color: black;
+  padding: 5px 5px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+/* Add a grey background color to dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+.rca-container {
+  width: 100%;
+  max-width: 1170px;
+  padding: 0px;
+  margin: 0 auto; }
+
+.rca-margin {
+  margin-top: 50px;
+  margin-bottom: 50px; }
+
+.rca-table {
+  display: table;
+  width: 100%; }
+
+.rca-cell {
+  display: table-cell; }
+
+p {
+  margin: 0px; }
+
+a {
+  color: #4d4d4d;
+  text-decoration: none; }
+  a:hover, a:focus {
+    color: #3F96F7;
+    text-decoration: none; }
+
+ul {
+  padding: 0px;
+  list-style: none;
+  margin: 0px; }
+
+button {
+  background: none;
+  box-shadow: none;
+  border: none;
+  outline: none; }
+
+
+.rca-row {
+  margin: 0px;
+  padding: 0px; }
+
+.rca-col {
+  display: table-cell; }
+
+.rca-column-1, .rca-column-2, .rca-column-3, .rca-column-4, .rca-column-5, .rca-column-6, .rca-column-7, .rca-column-8, .rca-column-9, .rca-column-10, .rca-column-11, .rca-column-12 {
+  position: relative;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px; }
+
+.rca-column-12 {
+  width: 100%; }
+
+.rca-column-11 {
+  width: 91.66666667%; }
+
+.rca-column-10 {
+  width: 83.33333333%; }
+
+.rca-column-9 {
+  width: 75%; }
+
+.rca-column-8 {
+  width: 66.66666667%; }
+
+.rca-column-7 {
+  width: 58.33333333%; }
+
+.rca-column-6 {
+  width: 50%; }
+
+.rca-column-5 {
+  width: 41.66666667%; }
+
+.rca-column-4 {
+  width: 33.33333333%; }
+
+.rca-column-3 {
+  width: 25%; }
+
+.rca-column-2 {
+  width: 16.66666667%; }
+
+.rca-column-1 {
+  width: 8.33333333%; }
+
+.rca-menu-widget {
+  min-width: 300px;
+  max-width: 100%;
+  background-color: #fff;
+  margin: 10px 0px; }
+
+.rca-menu-scroll {
+  min-width: 300px;
+  max-width: 100%;
+  background-color: #fff;
+  margin: 10px 0px;
+  overflow-y: auto; }
+
+.rca-micro-widget {
+  min-width: 240px;
+  max-width: 100%;
+  min-height: 110px;
+  background-color: #fff;
+  margin-bottom: 10px; }
+
+.rca-mini-widget {
+  min-width: 300px;
+  max-width: 100%;
+  min-height: 360px;
+  background-color: #fff;
+  margin-bottom: 10px; }
+
+.rca-medium-widget {
+  min-width: 350px;
+  max-width: 100%;
+  min-height: 425px;
+  background-color: #fff;
+  margin-bottom: 10px; }
+
+.rca-relative {
+  position: relative; }
+
+.rca-right {
+  float: right; }
+
+.rca-clear {
+  clear: both; }
+
+.rca-live-text {
+  color: #d91e18; }
+
+.rca-theme-text {
+  color: #3F96F7; }
+
+.rca-basic-text {
+  color: #b3b3b3; }
+
+.rca-highlight-text {
+  color: #f9690e; }
+
+.rca-center {
+  text-align: center; }
+
+.rca-vs {
+  vertical-align: middle; }
+  .rca-vs:before {
+    border-radius: 50%;
+    background-color: #3F96F7;
+    color: #fff;
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    font-size: 16px;
+    vertical-align: middle;
+    content: "vs";
+    line-height: 28px; }
+
+.rca-powered {
+  background-color: rgba(241, 241, 241, 0.7);
+  position: fixed;
+  bottom: 15px;
+  right: 15px;
+  border-radius: 3px;
+  z-index: 99; }
+  .rca-powered h2 {
+    font-size: 13px;
+    padding: 0 10px 0 0px !important; }
+    .rca-powered h2 a:hover, .rca-powered h2 a:focus {
+      color: #4d4d4d; }
+
+.rca-no-border {
+  border: none; }
+
+.rca-micro-widget .rca-bowler-info {
+  font-size: 16px; }
+
+.rca-micro-widget .rca-tab-list li {
+  font-size: 14px; }
+
+.rca-left-border {
+  border-left: 5px solid #3F96F7; }
+
+.rca-top-border {
+  border-top: 5px solid #3F96F7; }
+
+.rca-no-padding {
+  padding: 0; }
+
+.rca-padding {
+  padding: 15px 10px;
+  display: block; }
+  .rca-padding.rca-medium-widget {
+    padding: 15px 20px; }
+
+.rca-top-padding {
+  padding: 10px 0px; }
+
+.rca-content-padding {
+  padding: 20px; }
+
+.rca-season-list li {
+  display: inline-block; }
+  .rca-season-list li a {
+    padding: 15px 15px;
+    text-align: center;
+    display: block;
+    line-height: 20px; }
+
+.rca-match-title {
+  font-weight: 300;
+  line-height: 20px;
+  padding-right: 5px;
+  margin: 0px; }
+  .rca-match-title .rca-match-info {
+    margin: 0; }
+
+.rca-match-score {
+  padding-right: 5px;
+  color: #4d4d4d; }
+
+.rca-match-schedule {
+  margin: 0px;
+  color: #7d7d7d; }
+
+.rca-match-info {
+  color: #b3b3b3;
+  font-weight: normal; }
+
+.rca-live-season.rca-left-border, .rca-live-season.rca-top-border {
+  border-color: #d91e18; }
+
+.rca-live-label {
+  font-size: 14px;
+  padding-left: 15px;
+  text-transform: uppercase;
+  position: relative;
+  font-weight: bold; }
+  .rca-live-label::before {
+    content: "";
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #d91e18;
+    position: absolute;
+    top: 4px;
+    left: 0px; }
+
+.rca-news-widget {
+  min-width: 200px;
+  max-width: 100%;
+  min-height: 425px;
+  background-color: #fff;
+  margin: 10px 0px; }
+  .rca-news-widget h3 {
+    background-color: #d91e18;
+    padding: 5px 5px 5px 10px;
+    color: #fff;
+    margin: 0px; }
+  .rca-news-widget img {
+    margin-right: 15px;
+    border-radius: 3px; }
+
+
+.rca-blog-image {
+  position: relative;
+  text-align: center;
+  background-color: white; }
+  .rca-blog-image img {
+    max-width: 100%;
+    max-height: 300px; }
+  .rca-blog-image .rca-blog-head {
+    position: absolute;
+    bottom: 3px;
+    width: 100%;
+    padding: 10px;
+    background-color: rgba(125, 125, 125, 0.7);
+    color: #fff; }
+
+.rca-footer {
+  padding: 10px 0px; }
+  .rca-footer li {
+    display: inline-block;
+    padding: 0 5px; }
+
+@media (max-width: 767px) {
+  .rca-column-1, .rca-column-2, .rca-column-3, .rca-column-4, .rca-column-5, .rca-column-6, .rca-column-7, .rca-column-8, .rca-column-9, .rca-column-10, .rca-column-11, .rca-column-12 {
+    width: 100%;
+    padding: 0; }
+  .rca-mini-widget.rca-stats {
+    min-width: 0; }
+  .rca-hide-mobile {
+    display: none !important; }
+  .rca-stats .rca-name-tag .rca-name-info {
+    width: 100px; }
+  .rca-menu-scroll .rca-season-list > li {
+    float: left;
+    width: 33.33%;
+    border-right: 1px solid #e6e6e6;
+    border-bottom: 1px solid #e6e6e6; }
+    .rca-menu-scroll .rca-season-list > li:nth-child(3), .rca-menu-scroll .rca-season-list > li:nth-child(6), .rca-menu-scroll .rca-season-list > li:nth-child(9), .rca-menu-scroll .rca-season-list > li:nth-child(12), .rca-menu-scroll .rca-season-list > li:nth-child(15), .rca-menu-scroll .rca-season-list > li:nth-child(18) {
+      border-right: none; } }
+@media (min-width: 768px) and (max-width: 992px) {
+  .rca-column-1, .rca-column-2, .rca-column-3, .rca-column-4, .rca-column-5, .rca-column-6 {
+    width: 50%; } }
+
+@media (min-width: 767px) {
+  .rca-column-1, .rca-column-2, .rca-column-3, .rca-column-4, .rca-column-5, .rca-column-6, .rca-column-7, .rca-column-8, .rca-column-9, .rca-column-10, .rca-column-11, .rca-column-12 {
+    float: left; }
+  .rca-hide-desk {
+    display: none !important; } }
+
+
+
