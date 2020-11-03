@@ -19,7 +19,7 @@ namespace Charpbasics
             string[] flower = new string[4];//0,1,2,3
             flower[0] = "Lilly";
             flower[1] = "rose";
-            flower[3] = "Jasmine";
+            flower[3] = "lotus";
             flower[2] = "Lotus";
             Console.WriteLine(flower[0]);
             for (int i = 0; i < flower.Length; i++)
