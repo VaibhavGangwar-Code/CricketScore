@@ -14,7 +14,7 @@ namespace Charpbasics
     {
         static void Main()
         {
-                string Ename = "Wolverine";
+                string Ename = "captain america";
                 Console.WriteLine("name:{0}||feedback:{1}", Ename, (int)feedback.good);
                 Console.WriteLine("name:{0}||feedback:{1}", Ename, feedback.good);
                 Console.WriteLine("ame:{0}||feedback:{1}", Ename, Convert.ToInt32(feedback.good));

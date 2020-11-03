@@ -19,7 +19,7 @@ namespace Charpbasics
             Console.WriteLine("Int: {0} || float:{1}||double:{2}", salary, f, d);
             Console.WriteLine("---------------");
             //Explicit conversion higher to lower
-            float sal = 300000.78f;
+            float sal = 30000.78f;
             int i = Convert.ToInt32(sal);
             Console.WriteLine("Explicit Conversion");
             Console.WriteLine("Float to int : {0}", i);

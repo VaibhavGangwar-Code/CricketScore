@@ -10,7 +10,7 @@ namespace Charpbasics
     {
         static void Main()
         {
-            string firstname = "manoj vata d i";
+            string firstname = "venkata manoj vatadi";
             Console.WriteLine("lenght of the string {0}:", firstname.Length);
             Console.WriteLine("converting to Uppercase {0}", firstname.ToUpper());
             Console.WriteLine("firstname contains {0}:", firstname.Contains("man"));
