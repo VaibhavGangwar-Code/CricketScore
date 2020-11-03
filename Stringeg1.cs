@@ -12,8 +12,8 @@ namespace Charpbasics
         {
             string firstname = "manoj vata d i";
             Console.WriteLine("lenght of the string {0}:", firstname.Length);
-            Console.WriteLine("converting to uppercase {0}", firstname.ToUpper());
-            Console.WriteLine("firstanme contains {0}:", firstname.Contains("man"));
+            Console.WriteLine("converting to Uppercase {0}", firstname.ToUpper());
+            Console.WriteLine("firstname contains {0}:", firstname.Contains("man"));
             Console.WriteLine("index: {0}:", firstname.IndexOf("a"));
             Console.Read();
         }
